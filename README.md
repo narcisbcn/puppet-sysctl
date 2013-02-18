@@ -4,17 +4,15 @@ puppet-sysctl
 Overview
 --------
 
-This module is useful for add/edit/remove sysctl parameters on /etc/sysctl. To do that it uses Augeas.
+This module is useful to add/edit/remove sysctl parameters on /etc/sysctl.
 
 Dependencies:
 ------------
 
 - This module uses augeas. This is already installed by default.
 
-Usage:
------
-
-Some examples how to add a parameter which only has one vale, another one with some values and last one to remove entries on /etc/sysctl.conf file
+Sample Usage:
+-------------
 
 <pre>
 sysctl::conf { 'net.ipv4.tcp_timestamps': value => '0' }
