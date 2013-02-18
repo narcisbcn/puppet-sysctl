@@ -9,7 +9,7 @@ This module is useful for add/edit/remove sysctl parameters on /etc/sysctl. To d
 Dependencies:
 ------------
 
-- This module uses augeas, by default is already installed.
+- This module uses augeas. This is already installed by default.
 
 Usage:
 -----
